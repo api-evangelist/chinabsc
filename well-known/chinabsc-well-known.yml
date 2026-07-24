@@ -1,0 +1,47 @@
+generated: '2026-07-20'
+method: searched
+source: live HTTP probes of the BSC / Lanweitong platform hosts
+notes: >-
+  No /.well-known/ discovery surface is published. Every path probed returns HTTP 500 from the
+  platform's Java application server (it does not serve a 404 for unmapped paths), so no document
+  was captured. Recorded as a negative result; no WellKnown or SecurityTxt pointer is wired into
+  apis.yml because nothing was found.
+hosts:
+- host: https://www.bsc1.cn
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
+  - path: /llms.txt
+    status: 500
+  - path: /robots.txt
+    status: 500
+- host: https://www.bscm.cn
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
+  - path: /llms.txt
+    status: 500
+  - path: /robots.txt
+    status: 500
+- host: https://chinabsc.com
+  documents:
+  - path: /
+    status: 0
+    note: domain registered (Alibaba Cloud registrar, created 2003-11-19, renewed 2025-11-28) but
+      publishes no A record; NS delegated to dns17/dns18.hichina.com. Last Wayback capture 2022-08-06.

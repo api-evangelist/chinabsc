@@ -1,25 +1,69 @@
 aid: chinabsc
-name: chinabsc
-description: chinabsc is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chinabsc.png
+name: Beijing Lanweitong Technology (蓝卫通 / BSC)
+description: >-
+  Beijing Lanweitong Technology Co., Ltd. (北京蓝卫通科技有限公司), branded BSC, operates one of China's
+  longest-running telemedicine networks — the 蓝卫通远程医学服务平台 (Lanweitong Remote Medical Service
+  Platform). Founded in 1998 and headquartered in Beijing, the company connects thousands of
+  member hospitals and clinics to specialist physicians at Grade-A tertiary hospitals for remote
+  consultation (远程会诊), remote outpatient clinics, multidisciplinary MDT consultations, remote
+  imaging and DICOM cloud reading, remote ECG, remote pathology, remote ultrasound, remote ward
+  rounds, and continuing medical education. The platform is delivered as hospital-facing web
+  applications (BSCTelmed, DicomCloud, BSCEcg, BSCUltrasound, BSCEdu) plus a mobile app, and is
+  sold to health systems and medical alliances (医联体) rather than exposed as a public developer
+  API. The company reports 19 patents and 199 software copyrights and has been recognized as a
+  national-level "little giant" specialized enterprise. It was surfaced in the API Evangelist
+  network as a Qiming Venture Partners portfolio company. Its original domain chinabsc.com is
+  still registered but no longer resolves; the live platform runs on bsc1.cn / bscm.cn.
 url: https://raw.githubusercontent.com/api-evangelist/chinabsc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health Care
+- Telemedicine
+- Remote Consultation
+- Medical Imaging
+- DICOM
+- Hospitals
+- China
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/chinabsc-domain-security.yml
+- type: LLMsTxt
+  url: llms/chinabsc-llms.txt
 - type: Website
-  url: https://chinabsc.com
+  url: https://www.bsc1.cn/BSCTelmed/frontend/index
+- type: Login
+  url: https://www.bsc1.cn/BSCManage/manage/system/toIndex
+- type: Blog
+  url: https://www.bsc1.cn/BSCTelmed/frontend/news/news2?colid=CCE08408038E46A2A3C52A16140FA7DA

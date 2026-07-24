@@ -1,0 +1,36 @@
+# Beijing Lanweitong Technology (蓝卫通 / BSC)
+
+> 北京蓝卫通科技有限公司 operates the 蓝卫通远程医学服务平台 (Lanweitong Remote Medical Service Platform),
+> a Beijing-based telemedicine network founded in 1998 that connects member hospitals and clinics
+> to specialist physicians at Grade-A tertiary hospitals. There is no public developer API,
+> OpenAPI description, SDK, or /.well-known/ discovery surface — the platform is sold to health
+> systems and medical alliances (医联体) as hosted web applications and a mobile app.
+
+## Platform
+
+- [Remote Medical Service Platform](https://www.bsc1.cn/BSCTelmed/frontend/index): platform home; also served at https://www.bscm.cn/BSCTelmed/frontend/index
+- [Hospital / operator sign-in](https://www.bsc1.cn/BSCManage/manage/system/toIndex): BSCManage console login for member institutions
+- [Mobile app](https://www.bsc1.cn/BSCTelmed/frontend/app/index): app download page
+- [Member hospital directory](https://www.bsc1.cn/BSCTelmed/frontend/netsite/indexsitelist): institutions on the network
+- [Expert directory](https://www.bsc1.cn/BSCTelmed/frontend/expert/index): consulting specialists
+
+## Clinical services
+
+- 远程会诊 / remote consultation — https://www.bsc1.cn/BSCTelmed/teleconsultation/toIndex
+- 远程影像 / remote imaging, DICOM cloud reading — https://www.bsc1.cn/DicomCloud/cloud/index
+- 远程心电 / remote ECG — https://www.bsc1.cn/BSCEcg/ecg/index
+- 远程超声 / remote ultrasound — https://www.bsc1.cn/BSCUltrasound/ultrasound/index
+- 远程教育 / continuing medical education — https://www.bsc1.cn/BSCEdu/education/video/front/index
+- 医联体 / medical alliance programs — https://www.bsc1.cn/BSCTelmed/frontend/ylt/index
+
+## News
+
+- [Industry news](https://www.bsc1.cn/BSCTelmed/frontend/news/news2?colid=CCE08408038E46A2A3C52A16140FA7DA): telemedicine and platform news
+
+## Optional
+
+- Original corporate domain chinabsc.com is still registered but no longer resolves; content last archived 2022-08-06.
+- ICP filing 京ICP备09030478号-5; public security filing 京公网安备 11010802038223号.
+- Surfaced in the API Evangelist network as a Qiming Venture Partners portfolio company.
+
+<!-- generated: 2026-07-20 | method: generated | source: apis.yml + live crawl of https://www.bsc1.cn/ -->
