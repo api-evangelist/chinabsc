@@ -1,4 +1,4 @@
-# chinabsc
+# Beijing Lanweitong Technology (蓝卫通 / BSC)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-chinabsc is a company surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Beijing Lanweitong Technology Co., Ltd. (北京蓝卫通科技有限公司), branded BSC, operates one of China's longest-running telemedicine networks — the 蓝卫通远程医学服务平台 (Lanweitong Remote Medical Service Platform). Founded in 1998 and headquartered in Beijing, the company connects thousands of member hospitals and clinics to specialist physicians at Grade-A tertiary hospitals for remote consultation (远程会诊), remote outpatient clinics, multidisciplinary MDT consultations, remote imaging and DICOM cloud reading, remote ECG, remote pathology, remote ultrasound, remote ward rounds, and continuing medical education. The platform is delivered as hospital-facing web applications (BSCTelmed, DicomCloud, BSCEcg, BSCUltrasound, BSCEdu) plus a mobile app, and is sold to health systems and medical alliances (医联体) rather than exposed as a public developer API. The company reports 19 patents and 199 software copyrights and has been recognized as a national-level "little giant" specialized enterprise. It was surfaced in the API Evangelist network as a Qiming Venture Partners portfolio company. Its original domain chinabsc.com is still registered but no longer resolves; the live platform runs on bsc1.cn / bscm.cn.
 
-Backed by: qiming — https://chinabsc.com
+**Areas:** Company · Healthcare · Telehealth · Remote Consultation · Medical Imaging · DICOM · Hospitals · China
+
+## Beijing Lanweitong Technology (蓝卫通 / BSC) on APIs.io
+
+Everything profiled for Beijing Lanweitong Technology (蓝卫通 / BSC) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chinabsc/](https://apis.io/providers/chinabsc/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chinabsc Domain Security](https://apis.io/security/chinabsc/chinabsc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bsc1.cn/BSCTelmed/frontend/index)
+- [Blog](https://www.bsc1.cn/BSCTelmed/frontend/news/news2?colid=CCE08408038E46A2A3C52A16140FA7DA)
+
+## API Evangelist rating
+
+**Kin Score 6.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 6.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chinabsc/](https://apis.io/providers/chinabsc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Beijing Lanweitong Technology (蓝卫通 / BSC): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chinabsc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
